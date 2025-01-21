@@ -49,6 +49,15 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search button:hover {
+    transform: scale(1.05);
+}
+.search button:active {
+    background-color: #c9dff7;
+    transform: scale(0.95); 
 }
 
 .search button img{
